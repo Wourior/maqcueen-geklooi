@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="ztUD_CjS$]4enBmYD%Sg">message</variable></variables><block type="device_button_event" id="@DW]DeC^Nz2eUM@!bPp2" x="262" y="-79"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="DFRobotMaqueenPlus_mototRun" id="%E8-_^h7yr_?,zgJEF1A"><field name="index">Motors.ALL</field><field name="direction">Dir.CW</field><value name="speed"><shadow type="math_number_minmax" id="-:CG-(=uWM5hx.FT;zV4"><mutation min="0" max="255" label="Speed" precision="0"></mutation><field name="SLIDER">255</field></shadow></value></block></statement></block><block type="device_forever" id=");tNq(OMbC1sl9`9-Lod" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="VWgFz]1J5l(vZngkl|0|"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></statement></block><block type="device_button_event" id="/F!9GcEB?~fiRY!irX?k" x="262" y="50"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="DFRobotMaqueenPlus_mototStop" id="crRus/KD}GEkY[N0Q?No"><field name="index">Motors.ALL</field></block></statement></block></xml>
